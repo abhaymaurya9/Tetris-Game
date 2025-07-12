@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.game-board {
+    position: relative;
+}
+
+canvas {
+    border: 3px solid #00ffff;
+    border-radius: 10px;
+    background: #000;
+}
+
+.game-info {
+    color: #00ffff;
+    min-width: 200px;
+}
+
+.score-display {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+}
+
+.controls {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.controls h3 {
+    margin-top: 0;
+    color: #00ffff;
+}
+
+.controls div {
+    margin: 8px 0;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: #ff0000;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    display: none;
+}
+
+.game-over h2 {
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.game-over p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.next-piece {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+}
+
+.next-piece h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.next-canvas {
+    border: 1px solid #00ffff;
+    border-radius: 5px;
+    background: #000;
+}

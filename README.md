@@ -53,4 +53,5 @@ Drop interval decreases - starts at 1000ms, reduces by 50ms per level
 # ✨ Interface:
 
 
-<img width="1058" height="818" alt="Screenshot 2025-07-12 at 10 21 55 PM" src="https://github.com/user-attachments/assets/b234af7b-93b9-4e30-9c02-e8df6e4e6c65" />
+<img width="869" height="818" alt="Screenshot 2025-07-20 at 11 52 32 PM" src="https://github.com/user-attachments/assets/02d0c7e0-4ff7-4d94-90ce-3be6a94095b1" />
+
